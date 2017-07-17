@@ -1,11 +1,11 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>Stephen's Awesome Website</title>
+        <title>Stephen Kaufman's First Website</title>
         <style type="text/css">
             body {
-                background: rgb(125, 198, 205);
-                color: rgb(45, 45, 45);
+                background: rgb(38, 81, 46);
+                color: rgb(38, 81, 46);
                 padding: 10px;
                 font-family: arial;
             }
@@ -23,15 +23,17 @@
 
             /* navigation menu */
             nav {
-                background: rgb(239, 80, 41);
+                background: rgb(129, 140, 131);
                 margin: 0 auto;
                 display: flex;
                 padding: 10px;
+                border-style: groove;
+                border-color: rgb(38, 81, 46);
             }
             nav header {
                 display: flex;
                 align-items: center;
-                color: rgb(255, 255, 255);
+                color: rgb(38, 81, 46);
                 flex: 1;
             }
             nav ul {
@@ -43,12 +45,12 @@
             }
             nav a {
                 text-decoration: none;
-                color: #fff;
+                color: rgb(38, 81, 46);
             }
 
             /* main container area beneath menu */
             main {
-                background: rgb(245, 238, 219);
+                background: rgb(129, 140, 131);
                 display: flex;
             }
             .content {
@@ -59,18 +61,22 @@
             /* portfolio styles */
             #portfolio {
                 list-style-type: none;
-                padding-left: 0;
+                padding-left: 10px;
+                color: rgb(129, 140, 131);
+                background-color: rgb(48, 51, 48);
+                border-radius: 10px;
+                border: none;
             }
 
             #portfolio li {
-                background: #fff;
+                background: rgb(95, 173, 109);
                 padding: 10px;
                 border-radius: 10px;
                 margin-bottom: 10px;
             }
 
             #portfolio li:hover {
-                background: #eee;
+                background: rgb(156, 198, 3);
             } 
 
             #portfolio a {
@@ -83,20 +89,20 @@
     
     <body>
         <nav>
-            <header>Stephen's Awesome Website</header>
+            <header>Stephen Kaufman's First Website</header>
             <ul>
                 <li><a href="index.html">Home</a>
-                </li>
+                
                 <li><a href="portfolio.html">Portfolio</a>
-                </li>
+                <li><a href="studies.html">Studies</a></li>
             </ul>
         </nav>
         
         <main>
             <div class="content">
                 <h1>Portfolio</h1>
-                <ul id="portfolio">
-                </ul>
+                <button class="btn btn-default" id="portfolio">
+                </button>
             </div>
         </main>
 
