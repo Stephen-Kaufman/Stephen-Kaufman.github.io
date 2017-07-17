@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
         <title>Stephen's awesome website</title>
-        <style>
+        
+    <style>
             body {
-                background: rgb(125, 198, 205);
+                background: rgb(38, 81, 46);
                 color: rgb(45, 45, 45);
                 padding: 10px;
                 font-family: arial;
@@ -20,16 +24,17 @@
 
             /* navigation menu */
             nav {
-                background: rgb(239, 80, 41);
+                background: rgb(129, 140, 131);
                 margin: 0 auto;
                 margin-bottom: 20px;
                 display: flex;
                 padding: 10px;
+                border-radius: 10px;
             }
             nav header {
                 display: flex;
                 align-items: center;
-                color: rgb(255, 255, 255);
+                color: rgb(38, 81, 46);
                 flex: 1;
             }
             nav ul {
@@ -41,13 +46,14 @@
             }
             nav a {
                 text-decoration: none;
-                color: #fff;
+                color: rgb(38, 81, 46);
             }
 
             /* main container area beneath menu */
             main {
-                background: rgb(245, 238, 219);
+                background: rgb(129, 140, 131);
                 display: flex;
+                border-radius: 10px;
             }
             [class=sidebar] {
                 margin-right: 25px;
@@ -59,7 +65,7 @@
             [class=sidebar] img {
                 border: 4px solid;
                 border-radius: 25px;
-                border-color: #ab5432;
+                border-color: rgb(95, 173, 109);
             }
             [class=content] {
                 flex: 1;
@@ -74,27 +80,39 @@
     <body>
         <div id="all-contents">
             <nav>
-                <header>Stephen's awesome website</header>
+                <header>Stephen Kaufman's First Website</header>
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="studies.html">Studies</a></li>
                 </ul>
             </nav>
             
             <main>
                 <div class="sidebar">
-                    <img src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/12321561_185954648456380_3060488167369802182_n.jpg?oh=a12e2b82ec32ece2b708c284a87e8705&oe=5862FBC2">
+                    <img src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/18301899_413948568990319_6762852863235603047_n.jpg?oh=60095a2bb254b0e933f2ff1f44b9947e&oe=5A0898E9">
                 </div>
                 
                 <div class="content">
                     <header>Stephen Kaufman</header>
-                    <p>Bouncer at City Bar Baton Rouge
+                    <p>Interests</p>
                     <section class="interests">
                         <ul>
-                            <li>Golf</li>
-                            <li>Cars</li>
+                            <li>JavaScript</li>
+                            <li>Learning new programming languages</li>
+                            <li>Hiking and other outdoor activities</li>
                             <li>Rocket League</li>
+                            <li>Golf</li>
                         </ul>
+                    <p>Programming Knowledge</p>
+                        <ul>
+                            <li>JavaScript</li>
+                            <li>JQuery</li>
+                            <li>C# Basics</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                        </ul>
+                    
                     </section>
                     </p>
                 </div>
